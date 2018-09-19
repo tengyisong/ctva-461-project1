@@ -1,0 +1,15 @@
+.bg-header {
+  background: url(images/image4.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-size: cover;
+}
+
+.bg-quote {
+  background: url(images/image4.jpg) center center no-repeat;
+  background-attachment: fixed;
+
+.font-serif {
+font-family: 'Monoton', cursive;
+}
+
