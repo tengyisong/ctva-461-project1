@@ -3,53 +3,53 @@
   background-attachment: fixed;
   background-color: black;
   background-size: cover;
+
 }
 
-.bg-quote {
-  background: url(images/image4.jpg) center center no-repeat;
-  background-attachment: fixed;
-
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:600');
-
-body {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  font-family: 'Work Sans', sans-serif;
-  height: 100vh;
-  overflow: hidden;
+h1,
+h2,
+h3,
+h4{
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
-.awesome {
-  color: #7F00FF;
-  font-size: 10vw;
+
+
+
+
+
+
+
+.video-title {
+  background: #000;
 }
 
-.eso {
-  animation: rotate 1s forwards ease-in-out 2s;
-  display: inline-block;
-  transform: rotateY(0);
-}
+  .video-wrapper {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+  }
 
-@supports (-webkit-background-clip: text) and (-webkit-text-fill-color: transparent) {
-  .eso {
-    background: linear-gradient(to left, #E100FF, #7F00FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .video-wrapper video {
+    height: 100%;
+    position: absolute;
+      top: 0;
+      left: 0;
+    width: 100%;
+  }
+
+  .video-title {
+    background-color: rgba(0,0,0, .7);
+    position: absolute;
+      top: 50%;
+      left: 50%;
+    z-index: 99;
   }
 }
 
-.me {
-  color: #E100FF;
-}
 
-@keyframes rotate {
-  to { transform: rotateY(900deg); }
-}
 
-@media (min-width: 40em) {
-  .awesome {
-    color: #7F00FF;
-    font-size: 4em;
-  }
-}
+
+
+
